@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto";
+}
+
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.headerlogo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.headerlink {
+    color: #E5E7EB;
+    font-size: 18px;
+}
