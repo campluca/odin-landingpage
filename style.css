@@ -82,3 +82,133 @@ body {
     height: 238px;
     background-color: grey;
 }
+
+.sectionthree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+
+.s3header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 36px;
+}
+
+.s3sub {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.s3imgtexts {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.s3text {
+    text-align: center;
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.img {
+    padding: 0px;
+    border-style: solid;
+    border-color: #3882F6;
+    width: 160px;
+    height: 160px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.sectionfour {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    background-color: #E5E7EB;
+    padding-left: 500px;
+    padding-right: 500px;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quotecredit {
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sectionfive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background-color: #F9FAF8;
+    padding-left: 500px;
+    padding-right: 500px;
+    gap: 16px;
+}
+
+.s5container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    height: 200px;
+    background-color: #3882F6;
+    gap: 40px;
+    border-radius: 25px;
+}
+
+.s5leftbig {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.s5leftsmall {
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.s5button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 18px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #F9FAF8;
+    border-width: 3px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
